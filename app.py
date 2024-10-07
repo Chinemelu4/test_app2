@@ -28,10 +28,10 @@ y = house_ct['count']
 
 fig1 = px.bar(x=x,y=y)
 
-st.plotly_chart(fig1)
+#st.plotly_chart(fig1)
 
 fig2 = px.pie(house_ct,values='count',names=x)
-st.plotly_chart(fig2)
+#st.plotly_chart(fig2)
 
 col1, col2 = st.columns(2) 
 
